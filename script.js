@@ -374,39 +374,39 @@ function page20MoveAnimation() {
   });
 }
 
-// locomotiveAnimation()
+locomotiveAnimation();
 
-// navAnimation();
+navAnimation();
 
-// page2Animation();
+page2Animation();
 
-// page3VideoAnimation();
+page3VideoAnimation();
 
-// page7VideoMove()
+page7VideoMove();
 
-// page7Animation()
+page7Animation();
 
-// page8VideoPlay();
+page8VideoPlay();
 
-// page11ScrollAnimation();
+page11ScrollAnimation();
 
-// loadingAnimation()
+loadingAnimation();
 
-// page14MoveAnimation()
+page14MoveAnimation();
 
-// page20MoveAnimation()
+page20MoveAnimation();
 
-gsap.to("#page10 button", {
-  scrollTrigger: {
-    trigger: "#page10 button", // Triggers specifically when #page10's button reaches top 15%
-    scroller: "#main",
-    start: " 1%",
-    endTrigger: "#page10", // Pins until the bottom of #page10 is reached
-    end: "85%",
-    pin: true,
-    pinSpacing: false,
-  },
-});
+// gsap.to("#page10 button", {
+//   scrollTrigger: {
+//     trigger: "#page10 button", // Triggers specifically when #page10's button reaches top 15%
+//     scroller: "#main",
+//     start: " 1%",
+//     endTrigger: "#page10", // Pins until the bottom of #page10 is reached
+//     end: "85%",
+//     pin: true,
+//     pinSpacing: false,
+//   },
+// });
 
 const btn16 = document.querySelector("#page16 .pg16-left button");
 
