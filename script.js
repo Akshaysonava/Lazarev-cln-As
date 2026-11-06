@@ -374,6 +374,7 @@ function page20MoveAnimation() {
   });
 }
 
+<<<<<<< HEAD
 locomotiveAnimation();
 
 navAnimation();
@@ -407,6 +408,41 @@ page20MoveAnimation();
 //     pinSpacing: false,
 //   },
 // });
+=======
+// locomotiveAnimation()
+
+// navAnimation();
+
+// page2Animation();
+
+// page3VideoAnimation();
+
+// page7VideoMove()
+
+// page7Animation()
+
+// page8VideoPlay();
+
+// page11ScrollAnimation();
+
+// loadingAnimation()
+
+// page14MoveAnimation()
+
+// page20MoveAnimation()
+
+gsap.to("#page10 button", {
+  scrollTrigger: {
+    trigger: "#page10 button", // Triggers specifically when #page10's button reaches top 15%
+    scroller: "#main",
+    start: " 1%",
+    endTrigger: "#page10", // Pins until the bottom of #page10 is reached
+    end: "85%",
+    pin: true,
+    pinSpacing: false,
+  },
+});
+>>>>>>> b52f9bbb778e1df16c40ee0eedb2e72f144aef00
 
 const btn16 = document.querySelector("#page16 .pg16-left button");
 
