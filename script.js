@@ -397,40 +397,8 @@ page14MoveAnimation();
 
 page20MoveAnimation();
 
-// gsap.to("#page10 button", {
-//   scrollTrigger: {
-//     trigger: "#page10 button", // Triggers specifically when #page10's button reaches top 15%
-//     scroller: "#main",
-//     start: " 1%",
-//     endTrigger: "#page10", // Pins until the bottom of #page10 is reached
-//     end: "85%",
-//     pin: true,
-//     pinSpacing: false,
-//   },
-// });
 
-// locomotiveAnimation()
-
-// navAnimation();
-
-// page2Animation();
-
-// page3VideoAnimation();
-
-// page7VideoMove()
-
-// page7Animation()
-
-// page8VideoPlay();
-
-// page11ScrollAnimation();
-
-// loadingAnimation()
-
-// page14MoveAnimation()
-
-// page20MoveAnimation()
-
+// this is for page 10 button pinning animation
 gsap.to("#page10 button", {
   scrollTrigger: {
     trigger: "#page10 button", // Triggers specifically when #page10's button reaches top 15%
@@ -487,6 +455,8 @@ if (btn16) {
 //    })
 // })
 
+
+// here is the code for rotating the arrow icon on click
 const arrowIcon = document.querySelectorAll(".uiux-part1");
 arrowIcon.forEach((element) => {
   element.addEventListener("click", () => {
