@@ -374,7 +374,7 @@ function page20MoveAnimation() {
   });
 }
 
-<<<<<<< HEAD
+
 locomotiveAnimation();
 
 navAnimation();
@@ -408,7 +408,7 @@ page20MoveAnimation();
 //     pinSpacing: false,
 //   },
 // });
-=======
+
 // locomotiveAnimation()
 
 // navAnimation();
@@ -442,7 +442,7 @@ gsap.to("#page10 button", {
     pinSpacing: false,
   },
 });
->>>>>>> b52f9bbb778e1df16c40ee0eedb2e72f144aef00
+
 
 const btn16 = document.querySelector("#page16 .pg16-left button");
 
