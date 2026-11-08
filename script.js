@@ -1,6 +1,8 @@
 function locomotiveAnimation() {
+  // this is for smooth scrolling using locomotive scroll and gsap scroll trigger
   gsap.registerPlugin(ScrollTrigger);
 
+  // locomotive scroll
   const locoScroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
     smooth: true,
@@ -36,6 +38,7 @@ function locomotiveAnimation() {
 
 //! page load animatin
 function loadingAnimation() {
+  // gspa.timeline() is used to create a sequence of animations
   var tl = gsap.timeline();
   tl.from("#page1", {
     opacity: 0,
